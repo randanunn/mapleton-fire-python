@@ -24,6 +24,6 @@ begin
            round(((count(1) filter ( where response_time_seconds >= 420 ))::numeric / count(1)) * 100, 1) as "+7 Min Resp %%"
     FROM sheet_data
     GROUP BY quadrant_normalize, quadrant_sort
-    ORDER BY quadrant_sort;
+    ORDER BY quadrant_sort; --the frontend reverses this
 end;
 $$ language plpgsql;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_additional_details.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_mapleton_details.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_overlap_details.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_quadrant_details.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_springville_details.sql" dialect="PostgreSQL" />
+  </component>
+</project>
