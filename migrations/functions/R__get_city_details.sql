@@ -26,4 +26,4 @@ begin
     GROUP BY sd.city
     ORDER BY count(1) desc;
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;

@@ -26,4 +26,4 @@ begin
     from sheet_data
     where city = 'SPRINGVILLE';
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;

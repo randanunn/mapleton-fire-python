@@ -55,4 +55,4 @@ begin
                  5                                                                                            as sort_order
           from t1) as t2 order by sort_order;
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;

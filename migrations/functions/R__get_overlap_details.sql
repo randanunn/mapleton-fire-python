@@ -13,4 +13,4 @@ begin
            round(((count(1) filter ( where overlap_previous is true ))::numeric / count(1) * 100), 1)
     from sheet_data;
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;

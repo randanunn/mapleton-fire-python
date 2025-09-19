@@ -2,6 +2,7 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/migrations/functions/R__get_additional_details.sql" value="ea739590-62d1-402c-ac38-e7ff7c0b7938" />
+    <file url="file://$PROJECT_DIR$/migrations/functions/R__get_city_details.sql" value="ea739590-62d1-402c-ac38-e7ff7c0b7938" />
     <file url="file://$PROJECT_DIR$/migrations/functions/R__get_mapleton_details.sql" value="ea739590-62d1-402c-ac38-e7ff7c0b7938" />
     <file url="file://$PROJECT_DIR$/migrations/functions/R__get_overlap_details.sql" value="ea739590-62d1-402c-ac38-e7ff7c0b7938" />
     <file url="file://$PROJECT_DIR$/migrations/functions/R__get_quadrant_details.sql" value="ea739590-62d1-402c-ac38-e7ff7c0b7938" />

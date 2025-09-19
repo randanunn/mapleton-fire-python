@@ -40,4 +40,4 @@ begin
            ) AS "Mapleton Only"
     from sheet_data;
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;

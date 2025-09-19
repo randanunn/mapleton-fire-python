@@ -26,4 +26,4 @@ begin
     GROUP BY quadrant_normalize, quadrant_sort
     ORDER BY quadrant_sort; --the frontend reverses this
 end;
-$$ language plpgsql;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
