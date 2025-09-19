@@ -98,5 +98,12 @@ BEGIN
        t2.call_complete_time between t1.call_dispatched_time and t1.call_complete_time
         ));
 
+--   this prevents supabase.js from running selects. it can only do rpc calls which call functions and those have pre-defined data set returns
+  ALTER TABLE sheet_data ENABLE ROW LEVEL SECURITY;
+  CREATE POLICY "deny all for anon"
+    ON sheet_data
+    FOR SELECT
+    TO anon
+    USING (false);
 END;
 $$ LANGUAGE plpgsql;
